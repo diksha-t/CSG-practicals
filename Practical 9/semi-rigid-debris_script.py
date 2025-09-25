@@ -1,13 +1,13 @@
 import maya.cmds as cmds
 
-def create_rigid_debris(num_pieces=40,
+def create_rigid_debris(num_pieces=25,
                         area_size=6.0,
-                        height=10,
+                        height=6.0,
                         min_scale=0.2,
                         max_scale=1.0,
                         mass_range=(0.5, 3.0),
                         use_explosion=True,
-                        explosion_magnitude=120,
+                        explosion_magnitude=80.0,
                         explosion_maxdist=10.0):
     # Create ground
     if not cmds.objExists("debris_ground"):
