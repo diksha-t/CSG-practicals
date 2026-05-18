@@ -1,4 +1,4 @@
-# Computer Graphics Practicals - using Maya / Unity
+# Computer Graphics Practicals
 
 This repository contains all practical experiments for our Computer Graphics group activity.
 Each folder includes the scene file, script and steps followed. 
